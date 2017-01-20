@@ -1,0 +1,14 @@
+---
+authentication:
+  access_token: 'digital ocean access token'
+ssh:
+  ssh_user: root
+  ssh_key_path: "~/.ssh/id_rsa"
+  ssh_port: '22'
+defaults:
+  region: lon1
+  image: docker-16-04
+  size: 512mb
+  ssh_key: 'ssh key id, get it with command tugboat keys'
+  private_networking: 'true'
+  backups_enabled: 'false'
